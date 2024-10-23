@@ -1,4 +1,5 @@
-// Insert a document in the collection school
-// document must have attribute name with value "Holberton school"
-// database name will be passed as option of mongo command
+// Add a document to the school collection
+// The document must include the attribute name set to "Holberton school"
+// The database name will be specified as an option in the Mongo command
+// Author: Bruno Owino
 db.school.insert({name: "Holberton school"})
