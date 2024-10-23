@@ -1,2 +1,4 @@
-// Write script that creates or uses the database my_db
+// Write a script to create or access the database my_db
+// Author: Bruno Owino
 use my_db
+
