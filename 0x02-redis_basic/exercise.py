@@ -3,6 +3,8 @@
 Redis module, Writing strings to Redis
 Reading from Redis and recovering original type
 Incrementing values, storing lists, Retrieving lists
+
+Author: Bruno Owino
 """
 import redis
 import uuid
@@ -12,7 +14,7 @@ from functools import wraps
 
 def count_calls(method: Callable) -> Callable:
     """
-    Prototype: def count_calls(method: Caallable) -> Callable:
+    Prototype: def count_calls(method: Callable) -> Callable:
     Returns a Callable
     """
     @wraps(method)
@@ -107,3 +109,4 @@ class Cache():
     def get_str(self, key):
         value = self._redis.get(key)
         return value.decode("utf-8")
+
