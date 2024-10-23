@@ -1,3 +1,4 @@
-// Deletes all document with name="Holberton school" in the collection school
-// database name passed as option of mongo command
+// Remove all documents with name="Holberton school" from the school collection
+// The database name will be specified as an option in the Mongo command
+// Author: Bruno Owino
 db.school.deleteMany({name: "Holberton school"})
