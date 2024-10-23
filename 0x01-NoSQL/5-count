@@ -1,3 +1,5 @@
-// Displays the number of documents in the collection school
-// database name will be passed as option of mongo command
+// Show the total number of documents in the school collection
+// The database name will be specified as an option in the Mongo command
+// Author: Bruno Owino
 db.school.count()
+
