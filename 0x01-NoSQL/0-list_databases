@@ -1,2 +1,4 @@
-// Write a script that lists all databases in MongoDB
+// Create a script to display all databases in MongoDB
+// Author: Bruno Owino
 show dbs
+
